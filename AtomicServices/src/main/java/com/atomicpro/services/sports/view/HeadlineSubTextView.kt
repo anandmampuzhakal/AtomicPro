@@ -6,19 +6,19 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 
-class HeadlineTextView(context: Context, attributeSet: AttributeSet) : AppCompatTextView(context, attributeSet) {
+class HeadlineSubTextView (context: Context, attributeSet: AttributeSet) : AppCompatTextView(context, attributeSet) {
     init {
         applyFont()
-        applyTheme()
+        applyFontSize()
     }
 
-    private fun applyTheme() {
-        textSize = 24.00f
+    private fun applyFontSize() {
+        textSize = 14.00f
         setTextColor(Color.GRAY)
     }
 
     private fun applyFont() {
-        val headlineTypeface: Typeface =Typeface.create("Montserrat", Typeface.NORMAL)
+        val headlineTypeface: Typeface = Typeface.create("Montserrat", Typeface.NORMAL)
         typeface=headlineTypeface
     }
 
