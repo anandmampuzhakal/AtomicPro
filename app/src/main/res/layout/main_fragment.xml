@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-
     <data>
 
         <variable
@@ -17,7 +15,7 @@
     android:background="#E1E3DD"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.atomicpro.services.sports.view.HeadlineTextView
         android:id="@+id/sportTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +25,7 @@
         android:textColor="@android:color/darker_gray"
         android:textSize="24sp" />
 
-    <TextView
+    <com.atomicpro.services.sports.view.HeadlineTextView
         android:id="@+id/sportDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
