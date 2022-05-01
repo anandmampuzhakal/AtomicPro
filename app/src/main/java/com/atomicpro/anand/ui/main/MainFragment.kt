@@ -1,5 +1,6 @@
 package com.atomicpro.anand.ui.main
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.*
 import androidx.core.view.isVisible
@@ -47,6 +48,9 @@ class MainFragment : Fragment() {
         return false
     }
     private fun setView() {
+        binding.sportTitle.applyFontSize(24.00f, Color.GRAY)
+        binding.sportDescription.applyFontSize(18.00f, Color.GRAY)
+
         viewModel.quoteModel.observe(viewLifecycleOwner) { currentQuote ->
             binding.sportTitle.text = currentQuote.name
             binding.sportDescription.text = currentQuote.description
