@@ -75,7 +75,7 @@ class MainFragment : Fragment() {
                         layoutParams = LinearLayout.LayoutParams(MATCH_PARENT, WRAP_CONTENT)
                     }
                 }, update = {
-                    it.text = "Jetpack-Compose View :"+  currentQuote.name
+                    it.text = "Jetpack-Compose View : "+  currentQuote.name
                 })
             }
         }
