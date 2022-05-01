@@ -19,4 +19,5 @@ class AtomicTextView (context: Context, attributeSet: AttributeSet) : AppCompatT
         typeface=headlineTypeface
     }
 
+
 }
