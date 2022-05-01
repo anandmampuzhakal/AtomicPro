@@ -15,7 +15,7 @@
     android:background="#E1E3DD"
     tools:context=".MainActivity">
 
-    <com.atomicpro.services.sports.view.HeadlineTextView
+    <com.atomicpro.atomicuicomponent.HeadlineTextView
         android:id="@+id/sportTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"/>
 
-    <com.atomicpro.services.sports.view.HeadlineSubTextView
+    <com.atomicpro.atomicuicomponent.HeadlineSubTextView
         android:id="@+id/sportDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

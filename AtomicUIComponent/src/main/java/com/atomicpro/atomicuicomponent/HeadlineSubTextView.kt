@@ -1,4 +1,4 @@
-package com.atomicpro.services.sports.view
+package com.atomicpro.atomicuicomponent
 
 import android.content.Context
 import android.graphics.Color
