@@ -11,7 +11,7 @@ class MainViewModel : ViewModel() {
     val quoteModel = MutableLiveData<SportViewData>()
     val isLoading = MutableLiveData<Boolean>()
 
-    fun getFeaturedFromSports() {
+    fun getFeaturedSports() {
         isLoading.postValue(true)
         viewModelScope.launch {
             val list = ContentRepository().getFeaturedSports()

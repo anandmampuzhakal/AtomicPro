@@ -88,7 +88,7 @@ class MainFragment : Fragment() {
     }
 
     private fun updateValue() {
-        viewModel.getFeaturedFromSports()
+        viewModel.getFeaturedSports()
     }
 
     override fun onDestroy() {
