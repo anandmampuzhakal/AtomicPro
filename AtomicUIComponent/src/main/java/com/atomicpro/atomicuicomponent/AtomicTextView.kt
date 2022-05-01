@@ -6,7 +6,7 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 
-class HeadlineTextView (context: Context, attributeSet: AttributeSet) : AppCompatTextView(context, attributeSet) {
+class AtomicTextView (context: Context, attributeSet: AttributeSet) : AppCompatTextView(context, attributeSet) {
     init {
         applyFont()
     }
